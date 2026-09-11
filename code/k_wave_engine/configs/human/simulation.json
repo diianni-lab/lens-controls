@@ -1,0 +1,97 @@
+{
+  "backend": "cuda",
+  "frequencyHz": 500000,
+
+  "grid": {
+    "spacingM": 0.000513,
+    "behindTransducerM": 0.02,
+    "inFrontOfTransducerM": 0.15,
+    "lateralM": 0.04,
+    "traversals": 2
+  },
+
+  "solver": {
+    "cfl": 0.15,
+    "pmlSize": [16, 16, 21]
+  },
+
+  "calibration": {
+    "targetPressurePa": 1000000,
+    "medium": {
+      "soundSpeed": 1500,
+      "density": 1000,
+      "alphaCoeff": 0,
+      "alphaPower": 1.001
+    }
+  },
+
+  "waveform": {
+    "sourceAmplitudePa": 1,
+    "toneBurstCycles": 110,
+    "tukeyRatio": 0.1
+  },
+
+  "transducer": {
+    "radiusOfCurvatureM": 0.15,
+    "annularDiametersM": [
+      [0.0052, 0.0314, 0.0444, 0.0543],
+      [0.0314, 0.0444, 0.0543, 0.0626]
+    ],
+    "focalDistanceSurfaceOffsetM": 0.005090000107884407,
+    "deviceRadiusM": 0.03500000141405308,
+    "deviceZBoundsM": [
+      -0.003453079223632813,
+      0.01432692050933838
+    ],
+    "elementRadiusM": 0.03200000084510037,
+    "elementZBoundsM": [
+      -0.003453079223632813,
+      0
+    ],
+    "bliTolerance": 0.05,
+    "upsamplingRate": 10,
+    "singlePrecision": true
+  },
+
+  "medium": {
+    "solverAlphaPower": 2,
+
+    "background": {
+      "soundSpeed": 1500,
+      "density": 1000,
+      "alphaCoeff": 0,
+      "alphaPower": 1.001
+    },
+
+    "softTissue": {
+      "soundSpeed": 1550,
+      "density": 1045,
+      "alphaCoeff": 0.59,
+      "alphaPower": 1.2
+    },
+
+    "skull": {
+      "alphaCoeff": 13.3,
+      "alphaPower": 1,
+      "ctCalibrationHU": [-990, 60, 1000, 1950],
+      "ctCalibrationDensity": [1.2, 1060, 1530, 2150],
+      "soundSpeedDensitySlope": 1.333,
+      "soundSpeedIntercept": 166.7
+    }
+  },
+
+  "lens": {
+    "distanceM": 0.001,
+    "baseThicknessM": 0.002,
+    "maximumThicknessM": 0.009,
+    "pillarWidthMm": 7,
+    "seed": 8,
+    "pillarMapSpacingM": 0.0005,
+    "pillarMapSamplesPerAxis": 161,
+    "soundSpeed": 2580,
+    "density": 1171,
+    "alphaCoeff": 2.76,
+    "alphaPower": 1.001,
+    "amplitudeCorrection": 0.206
+  }
+}

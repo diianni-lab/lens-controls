@@ -1,0 +1,31 @@
+{
+  "analysis": "lens-sweep pressure ratios",
+  "simulationRoot": "../simulation_outputs",
+  "dbLevels": [
+    6,
+    12
+  ],
+  "thresholdFraction": {
+    "6": 0.5011872336272722,
+    "12": 0.251188643150958
+  },
+  "thresholdPa": {
+    "6": 529030.3145010101,
+    "12": 265143.2398297271
+  },
+  "noLensPeakPa": 1055554.25,
+  "focalVolume": "all no-lens voxels at or above the threshold",
+  "exclusion": "all x slices from the source through the last lens voxel",
+  "lastExcludedXIndexZeroBased": 41,
+  "pressureFiles": 1137,
+  "rowsPerDbLevel": 1137,
+  "summaries": {
+    "6": "pressure_ratios_6db.csv",
+    "12": "pressure_ratios_12db.csv"
+  },
+  "software": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "nibabel": "5.4.2"
+  }
+}

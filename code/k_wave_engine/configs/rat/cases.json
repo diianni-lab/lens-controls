@@ -1,0 +1,164 @@
+{
+  "cases": [
+    {
+      "caseId": "Sc15_DV4_ML0p2_AP0p5",
+      "anatomyFile": "Sc15.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.2, "ap": 0.5}
+    },
+
+    {
+      "caseId": "Sc15_APm2p5",
+      "anatomyFile": "Sc15.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.55, "ap": -2.5}
+    },
+    {
+      "caseId": "Sc15_APm0p5",
+      "anatomyFile": "Sc15.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.55, "ap": -0.5}
+    },
+    {
+      "caseId": "Sc15_APp1p5",
+      "anatomyFile": "Sc15.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.55, "ap": 1.5}
+    },
+    {
+      "caseId": "Sc15_APp3p5",
+      "anatomyFile": "Sc15.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.55, "ap": 3.5}
+    },
+    {
+      "caseId": "Sc15_APp5p5",
+      "anatomyFile": "Sc15.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.55, "ap": 5.5}
+    },
+    {
+      "caseId": "Sc15_APp7p5",
+      "anatomyFile": "Sc15.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.55, "ap": 7.5}
+    },
+
+    {
+      "caseId": "Sc29_APm2p5",
+      "anatomyFile": "Sc29.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.25, "ap": -2.5}
+    },
+    {
+      "caseId": "Sc29_APm0p5",
+      "anatomyFile": "Sc29.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.25, "ap": -0.5}
+    },
+    {
+      "caseId": "Sc29_APp1p5",
+      "anatomyFile": "Sc29.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.25, "ap": 1.5}
+    },
+    {
+      "caseId": "Sc29_APp3p5",
+      "anatomyFile": "Sc29.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.25, "ap": 3.5}
+    },
+    {
+      "caseId": "Sc29_APp5p5",
+      "anatomyFile": "Sc29.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.25, "ap": 5.5}
+    },
+    {
+      "caseId": "Sc29_APp7p5",
+      "anatomyFile": "Sc29.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.25, "ap": 7.5}
+    },
+
+    {
+      "caseId": "Sc30_APm2p5",
+      "anatomyFile": "Sc30.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.044, "ap": -2.5}
+    },
+    {
+      "caseId": "Sc30_APm0p5",
+      "anatomyFile": "Sc30.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.044, "ap": -0.5}
+    },
+    {
+      "caseId": "Sc30_APp1p5",
+      "anatomyFile": "Sc30.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.044, "ap": 1.5}
+    },
+    {
+      "caseId": "Sc30_APp3p5",
+      "anatomyFile": "Sc30.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.044, "ap": 3.5}
+    },
+    {
+      "caseId": "Sc30_APp5p5",
+      "anatomyFile": "Sc30.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.044, "ap": 5.5}
+    },
+    {
+      "caseId": "Sc30_APp7p5",
+      "anatomyFile": "Sc30.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.044, "ap": 7.5}
+    },
+
+    {
+      "caseId": "Sc35_APm2p5",
+      "anatomyFile": "Sc35_manual_bone.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.2, "ap": -2.5}
+    },
+    {
+      "caseId": "Sc35_APm0p5",
+      "anatomyFile": "Sc35_manual_bone.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.2, "ap": -0.5}
+    },
+    {
+      "caseId": "Sc35_APp1p5",
+      "anatomyFile": "Sc35_manual_bone.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.2, "ap": 1.5}
+    },
+    {
+      "caseId": "Sc35_APp3p5",
+      "anatomyFile": "Sc35_manual_bone.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.2, "ap": 3.5}
+    },
+    {
+      "caseId": "Sc35_APp5p5",
+      "anatomyFile": "Sc35_manual_bone.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.2, "ap": 5.5}
+    },
+    {
+      "caseId": "Sc35_APp7p5",
+      "anatomyFile": "Sc35_manual_bone.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.2, "ap": 7.5}
+    },
+
+    {
+      "caseId": "Sc38_APm2p5",
+      "anatomyFile": "Sc38.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.55, "ap": -2.5}
+    },
+    {
+      "caseId": "Sc38_APm0p5",
+      "anatomyFile": "Sc38.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.55, "ap": -0.5}
+    },
+    {
+      "caseId": "Sc38_APp1p5",
+      "anatomyFile": "Sc38.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.55, "ap": 1.5}
+    },
+    {
+      "caseId": "Sc38_APp3p5",
+      "anatomyFile": "Sc38.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.55, "ap": 3.5}
+    },
+    {
+      "caseId": "Sc38_APp5p5",
+      "anatomyFile": "Sc38.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.55, "ap": 5.5}
+    },
+    {
+      "caseId": "Sc38_APp7p5",
+      "anatomyFile": "Sc38.mat",
+      "targetAtlasMm": {"dv": 4, "ml": 0.55, "ap": 7.5}
+    }
+  ]
+}

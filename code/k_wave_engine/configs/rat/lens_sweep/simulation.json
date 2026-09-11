@@ -1,0 +1,44 @@
+{
+  "backend": "matlab-gpu",
+  "frequencyHz": 1500000,
+
+  "grid": {
+    "size": [105, 115, 115],
+    "spacingM": 0.000165
+  },
+
+  "solver": {
+    "cfl": 0.2,
+    "pmlSize": [20, 20, 20],
+    "durationS": 0.000016
+  },
+
+  "waveform": {
+    "sourceAmplitudePa": 55246.6945,
+    "toneBurstCycles": 40,
+    "tukeyRatio": 0.1
+  },
+
+  "transducer": {
+    "radiusOfCurvatureM": 0.01,
+    "sourceToTargetDistanceM": 0.0106,
+    "diameterM": 0.016,
+    "centralHoleDiameterM": 0.00315
+  },
+
+  "medium": {
+    "soundSpeed": 1500,
+    "density": 1000,
+    "alphaCoeff": 0,
+    "alphaPower": 2
+  },
+
+  "lens": {
+    "distanceM": 0.00005,
+    "baseThicknessM": 0.00025,
+    "coneAngleMultiplier": 1.04,
+    "soundSpeed": 2580,
+    "density": 1171,
+    "alphaCoeff": 1.84
+  }
+}

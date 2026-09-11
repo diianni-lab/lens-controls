@@ -1,0 +1,11 @@
+subjectId,condition,status,pressureFile,insideMaskFile,insideVoxels,insideMeanKPa,outsideMeanKPa,insideOutsideMeanRatio
+Sc15_DV4_ML0p2_AP0p5,nolens,ok,../../simulation_outputs/Sc15_DV4_ML0p2_AP0p5/pressure_no_lens.nii.gz,masks/Sc15_DV4_ML0p2_AP0p5_inside_mask.nii.gz,429,246.73344540355475,16.0847093223864,15.339627248355415
+Sc15_DV4_ML0p2_AP0p5,lens,ok,../../simulation_outputs/Sc15_DV4_ML0p2_AP0p5/pressure_lens.nii.gz,masks/Sc15_DV4_ML0p2_AP0p5_inside_mask.nii.gz,429,58.936342593604316,22.82418129141484,2.5821886814302872
+Sc29_APm0p5,nolens,ok,../../simulation_outputs/Sc29_APm0p5/pressure_no_lens.nii.gz,masks/Sc29_APm0p5_inside_mask.nii.gz,666,231.87355579016517,14.230402044492573,16.29423786237329
+Sc29_APm0p5,lens,ok,../../simulation_outputs/Sc29_APm0p5/pressure_lens.nii.gz,masks/Sc29_APm0p5_inside_mask.nii.gz,666,56.49436813766892,20.026868809628112,2.8209286571303
+Sc30_APm0p5,nolens,ok,../../simulation_outputs/Sc30_APm0p5/pressure_no_lens.nii.gz,masks/Sc30_APm0p5_inside_mask.nii.gz,581,237.29901546364027,15.669955196811449,15.14356693961233
+Sc30_APm0p5,lens,ok,../../simulation_outputs/Sc30_APm0p5/pressure_lens.nii.gz,masks/Sc30_APm0p5_inside_mask.nii.gz,581,53.42425466262371,19.906253396959706,2.6837925548954997
+Sc35_APm0p5,nolens,ok,../../simulation_outputs/Sc35_APm0p5/pressure_no_lens.nii.gz,masks/Sc35_APm0p5_inside_mask.nii.gz,548,242.72636296760948,14.582776873732247,16.64472857736918
+Sc35_APm0p5,lens,ok,../../simulation_outputs/Sc35_APm0p5/pressure_lens.nii.gz,masks/Sc35_APm0p5_inside_mask.nii.gz,548,70.94952648836679,20.04647038596827,3.539252802230393
+Sc38_APm0p5,nolens,ok,../../simulation_outputs/Sc38_APm0p5/pressure_no_lens.nii.gz,masks/Sc38_APm0p5_inside_mask.nii.gz,427,244.22710919203746,13.735501781707766,17.78071985089664
+Sc38_APm0p5,lens,ok,../../simulation_outputs/Sc38_APm0p5/pressure_lens.nii.gz,masks/Sc38_APm0p5_inside_mask.nii.gz,427,60.14133782201405,19.442253870870722,3.093331576753072

@@ -1,0 +1,238 @@
+{
+  "cases": [
+    {
+      "caseId": "UNMET_005",
+      "ctFile": "UNMET_005/planning_images/UNMET_005_ct.nii.gz",
+      "segmentationFile": "UNMET_005/planning_images/UNMET_005_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_005/UNMET_005_transducer_position.txt",
+      "focalDistanceM": 0.108,
+      "gridSpacingM": 0.0005133333333333333
+    },
+    {
+      "caseId": "UNMET_006",
+      "ctFile": "UNMET_006/planning_images/UNMET_006_ct.nii.gz",
+      "segmentationFile": "UNMET_006/planning_images/UNMET_006_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_006/UNMET_006_transducer_position.txt",
+      "focalDistanceM": 0.12
+    },
+    {
+      "caseId": "UNMET_007",
+      "ctFile": "UNMET_007/planning_images/UNMET_007_ct.nii.gz",
+      "segmentationFile": "UNMET_007/planning_images/UNMET_007_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_007/UNMET_007_transducer_position.txt",
+      "focalDistanceM": 0.12
+    },
+    {
+      "caseId": "UNMET_008",
+      "ctFile": "UNMET_008/planning_images/UNMET_008_ct.nii.gz",
+      "segmentationFile": "UNMET_008/planning_images/UNMET_008_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_008/UNMET_008_transducer_position.txt",
+      "focalDistanceM": 0.12
+    },
+    {
+      "caseId": "UNMET_009",
+      "ctFile": "UNMET_009/planning_images/UNMET_009_ct.nii.gz",
+      "segmentationFile": "UNMET_009/planning_images/UNMET_009_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_009/UNMET_009_transducer_position.txt",
+      "focalDistanceM": 0.1
+    },
+    {
+      "caseId": "UNMET_011",
+      "ctFile": "UNMET_011/planning_images/UNMET_011_ct.nii.gz",
+      "segmentationFile": "UNMET_011/planning_images/UNMET_011_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_011/UNMET_011_transducer_position.txt",
+      "focalDistanceM": 0.108
+    },
+    {
+      "caseId": "UNMET_012",
+      "ctFile": "UNMET_012/planning_images/UNMET_012_ct.nii.gz",
+      "segmentationFile": "UNMET_012/planning_images/UNMET_012_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_012/UNMET_012_transducer_position.txt",
+      "focalDistanceM": 0.112
+    },
+    {
+      "caseId": "UNMET_013",
+      "ctFile": "UNMET_013/planning_images/UNMET_013_ct.nii.gz",
+      "segmentationFile": "UNMET_013/planning_images/UNMET_013_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_013/UNMET_013_transducer_position.txt",
+      "focalDistanceM": 0.0963
+    },
+    {
+      "caseId": "UNMET_014",
+      "ctFile": "UNMET_014/planning_images/UNMET_014_ct.nii.gz",
+      "segmentationFile": "UNMET_014/planning_images/UNMET_014_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_014/UNMET_014_transducer_position.txt",
+      "focalDistanceM": 0.12,
+      "gridSpacingM": 0.0005133333333333333
+    },
+    {
+      "caseId": "UNMET_015",
+      "ctFile": "UNMET_015/planning_images/UNMET_015_ct.nii.gz",
+      "segmentationFile": "UNMET_015/planning_images/UNMET_015_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_015/UNMET_015_transducer_position.txt",
+      "focalDistanceM": 0.12
+    },
+    {
+      "caseId": "UNMET_016",
+      "ctFile": "UNMET_016/planning_images/UNMET_016_ct.nii.gz",
+      "segmentationFile": "UNMET_016/planning_images/UNMET_016_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_016/UNMET_016_transducer_position.txt",
+      "focalDistanceM": 0.112
+    },
+    {
+      "caseId": "UNMET_018",
+      "ctFile": "UNMET_018/planning_images/UNMET_018_ct.nii.gz",
+      "segmentationFile": "UNMET_018/planning_images/UNMET_018_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_018/UNMET_018_transducer_position.txt",
+      "focalDistanceM": 0.0899
+    },
+    {
+      "caseId": "UNMET_019",
+      "ctFile": "UNMET_019/planning_images/UNMET_019_ct.nii.gz",
+      "segmentationFile": "UNMET_019/planning_images/UNMET_019_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_019/UNMET_019_transducer_position.txt",
+      "focalDistanceM": 0.0958
+    },
+    {
+      "caseId": "UNMET_020",
+      "ctFile": "UNMET_020/planning_images/UNMET_020_ct.nii.gz",
+      "segmentationFile": "UNMET_020/planning_images/UNMET_020_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_020/UNMET_020_transducer_position.txt",
+      "focalDistanceM": 0.0853
+    },
+    {
+      "caseId": "UNMET_021",
+      "ctFile": "UNMET_021/planning_images/UNMET_021_ct.nii.gz",
+      "segmentationFile": "UNMET_021/planning_images/UNMET_021_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_021/UNMET_021_transducer_position.txt",
+      "focalDistanceM": 0.084
+    },
+    {
+      "caseId": "UNMET_022",
+      "ctFile": "UNMET_022/planning_images/UNMET_022_ct.nii.gz",
+      "segmentationFile": "UNMET_022/planning_images/UNMET_022_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_022/UNMET_022_transducer_position.txt",
+      "focalDistanceM": 0.0907
+    },
+    {
+      "caseId": "UNMET_023",
+      "ctFile": "UNMET_023/planning_images/UNMET_023_ct.nii.gz",
+      "segmentationFile": "UNMET_023/planning_images/UNMET_023_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_023/UNMET_023_transducer_position.txt",
+      "focalDistanceM": 0.0912
+    },
+    {
+      "caseId": "UNMET_024",
+      "ctFile": "UNMET_024/planning_images/UNMET_024_ct.nii.gz",
+      "segmentationFile": "UNMET_024/planning_images/UNMET_024_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_024/UNMET_024_transducer_position.txt",
+      "focalDistanceM": 0.0855
+    },
+    {
+      "caseId": "UNMET_025",
+      "ctFile": "UNMET_025/planning_images/UNMET_025_ct.nii.gz",
+      "segmentationFile": "UNMET_025/planning_images/UNMET_025_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_025/UNMET_025_transducer_position.txt",
+      "focalDistanceM": 0.0903
+    },
+    {
+      "caseId": "UNMET_026",
+      "ctFile": "UNMET_026/planning_images/UNMET_026_ct.nii.gz",
+      "segmentationFile": "UNMET_026/planning_images/UNMET_026_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_026/UNMET_026_transducer_position.txt",
+      "focalDistanceM": 0.107
+    },
+    {
+      "caseId": "UNMET_027",
+      "ctFile": "UNMET_027/planning_images/UNMET_027_ct.nii.gz",
+      "segmentationFile": "UNMET_027/planning_images/UNMET_027_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_027/UNMET_027_transducer_position.txt",
+      "focalDistanceM": 0.0863
+    },
+    {
+      "caseId": "UNMET_028",
+      "ctFile": "UNMET_028/planning_images/UNMET_028_ct.nii.gz",
+      "segmentationFile": "UNMET_028/planning_images/UNMET_028_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_028/UNMET_028_transducer_position.txt",
+      "focalDistanceM": 0.0913
+    },
+    {
+      "caseId": "UNMET_029",
+      "ctFile": "UNMET_029/planning_images/UNMET_029_ct.nii.gz",
+      "segmentationFile": "UNMET_029/planning_images/UNMET_029_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_029/UNMET_029_transducer_position.txt",
+      "focalDistanceM": 0.106
+    },
+    {
+      "caseId": "UNMET_030",
+      "ctFile": "UNMET_030/planning_images/UNMET_030_ct.nii.gz",
+      "segmentationFile": "UNMET_030/planning_images/UNMET_030_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_030/UNMET_030_transducer_position.txt",
+      "focalDistanceM": 0.101
+    },
+    {
+      "caseId": "UNMET_031",
+      "ctFile": "UNMET_031/planning_images/UNMET_031_ct.nii.gz",
+      "segmentationFile": "UNMET_031/planning_images/UNMET_031_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_031/UNMET_031_transducer_position.txt",
+      "focalDistanceM": 0.101
+    },
+    {
+      "caseId": "UNMET_032",
+      "ctFile": "UNMET_032/planning_images/UNMET_032_ct.nii.gz",
+      "segmentationFile": "UNMET_032/planning_images/UNMET_032_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_032/UNMET_032_transducer_position.txt",
+      "focalDistanceM": 0.108,
+      "pmlSize": [43, 43, 36]
+    },
+    {
+      "caseId": "UNMET_033",
+      "ctFile": "UNMET_033/planning_images/UNMET_033_ct.nii.gz",
+      "segmentationFile": "UNMET_033/planning_images/UNMET_033_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_033/UNMET_033_transducer_position.txt",
+      "focalDistanceM": 0.0797
+    },
+    {
+      "caseId": "UNMET_034",
+      "ctFile": "UNMET_034/planning_images/UNMET_034_ct.nii.gz",
+      "segmentationFile": "UNMET_034/planning_images/UNMET_034_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_034/UNMET_034_transducer_position.txt",
+      "focalDistanceM": 0.094
+    },
+    {
+      "caseId": "UNMET_035",
+      "ctFile": "UNMET_035/planning_images/UNMET_035_ct.nii.gz",
+      "segmentationFile": "UNMET_035/planning_images/UNMET_035_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_035/UNMET_035_transducer_position.txt",
+      "focalDistanceM": 0.0786
+    },
+    {
+      "caseId": "UNMET_036",
+      "ctFile": "UNMET_036/planning_images/UNMET_036_ct.nii.gz",
+      "segmentationFile": "UNMET_036/planning_images/UNMET_036_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_036/UNMET_036_transducer_position.txt",
+      "focalDistanceM": 0.102
+    },
+    {
+      "caseId": "UNMET_037",
+      "ctFile": "UNMET_037/planning_images/UNMET_037_ct.nii.gz",
+      "segmentationFile": "UNMET_037/planning_images/UNMET_037_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_037/UNMET_037_transducer_position.txt",
+      "focalDistanceM": 0.105
+    },
+    {
+      "caseId": "UNMET_038",
+      "ctFile": "UNMET_038/planning_images/UNMET_038_ct.nii.gz",
+      "segmentationFile": "UNMET_038/planning_images/UNMET_038_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_038/UNMET_038_transducer_position.txt",
+      "focalDistanceM": 0.0926
+    },
+    {
+      "caseId": "UNMET_039",
+      "ctFile": "UNMET_039/planning_images/UNMET_039_ct.nii.gz",
+      "segmentationFile": "UNMET_039/planning_images/UNMET_039_skull_segmentation.nii.gz",
+      "poseFile": "UNMET_039/UNMET_039_transducer_position.txt",
+      "focalDistanceM": 0.102
+    }
+  ]
+}

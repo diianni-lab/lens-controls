@@ -1,0 +1,31 @@
+{
+  "analysis": "pressure within the localized skull region",
+  "simulationRoot": "../../simulation_outputs",
+  "subjects": [
+    "Sc15_DV4_ML0p2_AP0p5",
+    "Sc29_APm0p5",
+    "Sc30_APm0p5",
+    "Sc35_APm0p5",
+    "Sc38_APm0p5"
+  ],
+  "skullLabel": 2,
+  "cylinder": {
+    "radiusMm": 4.0,
+    "lengthMm": 10.0,
+    "axis": "k-Wave +x depth axis through source center",
+    "depthRangeMm": [
+      0.0,
+      10.0
+    ],
+    "center": "source ML/AP axis"
+  },
+  "coverage": "simulation grid",
+  "summary": "summary.csv",
+  "maskDirectory": "masks",
+  "software": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "nibabel": "5.4.2",
+    "scipy": "1.15.3"
+  }
+}

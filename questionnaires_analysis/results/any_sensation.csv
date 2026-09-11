@@ -1,0 +1,3 @@
+condition,n_subjects,n_with_report,n_without_report,percent_with_report,odds_ratio,fisher_p
+Active,11,6,5,54.54545454545455,1.0,1.0
+Control,11,6,5,54.54545454545455,1.0,1.0
