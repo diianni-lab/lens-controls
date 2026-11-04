@@ -88,7 +88,7 @@ Follow each workflow README for the required inputs and commands.
 
 ## Data and additional files
 
-Lens CAD files: [Figshare link to be added].
+Lens CAD files: https://doi.org/10.6084/m9.figshare.33065249.
 
 ## Citation
 
