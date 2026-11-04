@@ -98,7 +98,11 @@ Boscutti et al. *Acoustic defocusing enables controlled transcranial ultrasound 
 
 ## License
 
-[License to be selected].
+The original source code in this repository is licensed under the
+MIT License. See [LICENSE](LICENSE) for details.
+
+Third-party components retain their respective licenses and
+copyright notices.
 
 ## Contact
 
