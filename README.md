@@ -3,7 +3,7 @@
 Code, datasets, and results for the manuscript *Acoustic defocusing enables controlled transcranial ultrasound neuromodulation*.
 This work designs and validates 3D-printed acoustic lenses that reduce ultrasound pressure at the intended brain target while preserving substantial skull exposure, providing a control condition for ultrasound neuromodulation experiments.
 
-The repository includes lens design and acoustic simulation workflows for human and rodent transducers, hydrophone validation, and analyses of auditory and somatosensory questionnaire responses. It also provides a starting point for adapting these methods to other transducers and applications.
+The repository includes lens design and acoustic simulation workflows for human and rodent transducers and hydrophone validation. It also provides a starting point for adapting these methods to other transducers and applications.
 
 <p align="center">
   <img src="figures/lens.png" alt="Lens design and fabricated lens" width="800">
@@ -15,7 +15,7 @@ The repository includes lens design and acoustic simulation workflows for human 
 
 ## Start here
 
-- **Reproduce the results:** Questionnaire and hydrophone analyses can be rerun using the included data. Lens-design and transcranial summary plots can be regenerated from the supplied results. Rerunning acoustic simulations requires a compatible NVIDIA GPU. Transcranial simulations additionally require imaging and planning inputs, which are not included.
+- **Reproduce the results:** Hydrophone analyses can be rerun using the included data. Lens-design and transcranial summary plots can be regenerated from the supplied results. Rerunning acoustic simulations requires a compatible NVIDIA GPU. Transcranial simulations additionally require imaging and planning inputs, which are not included.
 
 - **Adapt the code:** Use the lens design, acoustic simulation, and analysis workflows for your own applications. Examples explain which parameters and inputs to change, including transducer geometry, lens dimensions, simulation settings, and datasets.
 
@@ -68,7 +68,6 @@ Follow each workflow README for the required inputs and commands.
 | 1B–D, 2A–B, S1A–B | [Human lens design](human_lens_design/README.md) |
 | 2C, 5E | [Hydrophone analysis](hydrophone_analysis/README.md) |
 | 3A–G, 5D, 5F–H, S2, S3 | [Transcranial propagation](transcranial_propagation/README.md) |
-| 4A–D | [Questionnaire analysis](questionnaires_analysis/README.md) |
 | 5A–B, S1C–D | [Rat lens design](rats_lens_design/README.md) |
 
 ## Repository organization
@@ -82,7 +81,6 @@ Follow each workflow README for the required inputs and commands.
 ├── rats_lens_design/          # Rat lens design results
 ├── transcranial_propagation/  # Human and rat transcranial simulations
 ├── hydrophone_analysis/       # Hydrophone validation
-├── questionnaires_analysis/  # Questionnaire data, scripts, and results
 └── dependencies/             # Location for MATLAB dependencies
 ```
 
