@@ -15,7 +15,7 @@ The following outputs are supplied in `results/`:
 | Output name | Figure panel |
 |---|---|
 | `subject_cluster_reports` | 4A |
-| `cluster_prevalence` | 4B |
+| `cluster_prevalence_ci` | 4B |
 | `any_sensation` | 4C |
 | `reports_per_subject` | 4D |
 
@@ -30,11 +30,15 @@ python scripts/subject_cluster_reports.py \
 python scripts/cluster_prevalence.py \
   --data-path data/questionnaire_responses.csv --output-dir reproduced_results
 
+  python scripts/cluster_prevalence_ci_plot.py \
+      --data-path reproduced_results/cluster_prevalence.csv --output-dir reproduced_results
+
 python scripts/any_sensation.py \
   --data-path data/questionnaire_responses.csv --output-dir reproduced_results
 
 python scripts/reports_per_subject.py \
   --data-path data/questionnaire_responses.csv --output-dir reproduced_results
+
 ```
 
 Outputs are written to `reproduced_results/`.

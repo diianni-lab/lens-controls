@@ -11,6 +11,8 @@ import pandas as pd
 from matplotlib import pyplot as plt
 from scipy.stats import fisher_exact
 
+from statsmodels.stats.proportion import confint_proportions_2indep
+
 from questionnaire_data import (
     ARM_COLORS,
     ARM_LABEL,
@@ -45,6 +47,19 @@ def main() -> None:
         odds_ratio, p_value = fisher_exact(contingency)
         row["odds_ratio"] = odds_ratio
         row["fisher_p"] = p_value
+
+        # Newcombe 95% CI
+        ci_low, ci_high = confint_proportions_2indep(
+            count1=row["active_with_report"],
+            nobs1=row["active_total"],
+            count2=row["control_with_report"],
+            nobs2=row["control_total"],
+            method="newcomb",
+            compare="diff",
+            alpha=0.05
+        )
+        row["newcomb_ci_low"] = ci_low
+        row["newcomb_ci_high"] = ci_high
         rows.append(row)
     table = pd.DataFrame(rows)
 
