@@ -104,5 +104,5 @@ copyright notices.
 
 ## Contact
 
-- Andrea Boscutti - andrea.boscutti@ucsf.edu
-- Tommaso Di Ianni - Tommaso.DiIanni@ucsf.edu
+Tommaso Di Ianni - Tommaso.DiIanni@ucsf.edu
+https://diiannilab.org/
